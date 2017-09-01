@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filhigh</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./fonts/font-awesome.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+       #map {
+        height: 700px;
+        width: 100%;
+       }
+    </style>
+</head>
+<body>
+	<div class="nav">
+		<ul>
+			<a>LOGO</a>
+			<a>HOME</a>
+			<a>PORTFOLIO</a>
+			<a>OUR TEAM</a>
+			<a>PRICING PLAN</a>
+			<a>LOGIN</a>
+		</ul>
+	</div>
+	<div class="img">
+		<img src="./img/1.png">
+	</div>
+
+	<div class="objective">
+		<div class="objImg">
+			<img src="./img/2.png">
+		</div>
+		<div class="desc">
+			<h1>What do we do</h1>
+
+			<p>We pride ourselves on our commitment to excellence, as well as our ability to deliver for our partners.We match TOP TALENT with the world's most innovative companies.</p>
+
+			<p>FliHigh was founded in 2013 to help transformative companies flourish in a continually evolving technology marketplace through the successful recruitment of executives and engineers. Our full stack recruiting approach enables us to help people and companies reach their full potential. We take a hands-on approach to everything we do at Flihigh and we understand that our hard work plays a critical role in helping others flourish</p>
+		</div>
+		
+	</div>
+
+	<div class="process">
+		<h1>How do we do it</h1>
+		<div class="top">
+			<div class="details">
+				<img src="./img/21.png">
+				<h3>Connect</h3>
+				<p>We spend enough time with your hiring manager and team to connect and understand your culture, processes and working styles</p>
+			</div>
+			<div class="details">
+				<img src="./img/22.png">
+				<h3>Learn</h3>
+				<p>We learn more about your requirement, the type of person you are looking for from a holistic perspective</p>
+			</div>
+			<div class="details">
+				<img src="./img/23.png">
+				<h3>Map</h3>
+				<p>We go through our talent pool with a fine comb approach to help map the perfect candidates for your team</p>
+			</div>
+		</div>
+		<div class="bottom">
+		    <div class="details">
+				<img src="./img/24.png">
+				<h3>Collaborate</h3>
+				<p>We collaborate with your team to validate the list of candidates we have chosen from our pool</p>
+			</div>
+			<div class="details">
+				<img src="./img/25.png">
+				<h3>Harmonize</h3>
+				<p>We work with you and the candidate to set potential expectations and ensure that you find the best person for the job</p>
+			</div>
+			<div class="details">
+				<img src="./img/26.png">
+				<h3>Recruit</h3>
+				<p>Once you have found the best candidate, we help you with the recruitment formalities</p>
+			</div>
+		</div>
+			
+	</div>
+
+	<div class="testimony">
+		<h1>Client Testimonials</h1>
+
+		<div class="testimonials">
+			<div class="testimo-details">
+				<div class="border">
+					<p>Llaudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta</p>	
+					<h2>Akinboye Richard</h2>
+					<span>Nja Entertatinment</span>
+					<div class="testImg">
+						<img src="./img/31.jpg">	
+					</div>
+				</div>
+			</div>
+			<div class="testimo-details">
+				<div class="border">
+					<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi</p>	
+					<h2>Clive Ojeh</h2>
+					<span>Apple Inc.</span>
+					<div class="testImg">
+						<img src="./img/32.jpg">	
+					</div>
+				</div>
+			</div>
+			<div class="testimo-details">
+				<div class="border">
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>	
+					<h2>John Johnston</h2>
+					<span>Sony Entertainment</span>
+					<div class="testImg">
+						<img src="./img/33.jpg">	
+					</div>
+				</div>
+			</div>
+			<div class="testimo-details">
+				<div class="border">
+					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
+					<h2>Effie Owen</h2>
+					<span>Ernest Tech</span>
+					<div class="testImg">
+						<img src="./img/34.jpg">	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="con-det">
+		<div class="contact">
+			<div class="container">
+				<p>Contact Us</p>
+
+				<input type="text" id="fname" name="firstname" placeholder="Name">
+
+				<input type="text" id="fname" name="firstname" placeholder="Email">
+
+				<input type="text" id="fname" name="firstname" placeholder="Message">
+
+				<div class="cont"> <a href="contactus">Contact Us</a> </div>
+			</div>
+		</div>
+		<div class="marker">
+			    <div id="map"></div>
+			    <script>
+			   		function initMap() {
+						var map = new google.maps.Map(document.getElementById('map'), {
+							zoom: 12,
+							center: {lat: 12.9102792, lng: 77.6368842},
+							mapTypeId: google.maps.MapTypeId.TERRAIN
+						});
+						var infowindow = new google.maps.InfoWindow({
+						  	content: "FliHigh Careers <br /> HSR Layout, Bangalore 560068"
+						});
+							infowindow.setPosition({lat: 12.9102792, lng: 77.6368842});
+							infowindow.open(map);
+							infowindow.bgcolor(red);
+					}
+			    </script>
+			    <script async defer
+			    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCY0zRSA6ztBCyb7bUirpL312kio2yPXac&callback=initMap">
+			    </script>
+		</div>
+	</div>
+
+</body>
+</html> 

@@ -1,0 +1,254 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Avenir,"sans-serif",arial;
+	color: hsla(213, 50%, 20%, 0.76);
+	font-size: 16px;
+	background-color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p {
+	margin: 0;
+}
+
+.nav {
+	font-size: 20px;
+	text-align: right;
+	padding: 30px;
+}
+
+.nav a {
+	padding: 0 20px;
+	font-weight: 500;
+}
+
+.img img {
+	max-width: 100%;
+	padding-bottom: 100px;
+}
+
+.objective {
+	padding-bottom: 145px;
+}
+
+.objective .objImg {
+	max-width: 50%;
+    padding-left: 235px;
+    position: absolute;
+    
+}
+
+.objective .objImg img {
+	width: 540px;
+	-webkit-box-shadow: 0px 9px 10px -2px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 9px 10px -2px rgba(0,0,0,0.41);
+    box-shadow: 0px 9px 10px -2px rgba(0,0,0,0.41);
+}
+
+.objective .desc {
+	padding: 0 170px 0 860px;
+	position: relative;
+	font-weight: 500;
+}
+
+.objective .desc h1 {
+	padding-bottom: 35px;
+}
+
+.objective .desc p {
+	padding-bottom: 25px; 
+	color: hsla(213, 37%, 32%, 0.62);
+}
+
+.clear {
+	clear: both;
+}
+
+.process {
+	padding: 100px 100px 50px 100px;
+	background-color: rgba(218, 218, 218, 0.15);
+}
+
+.process h1, h3 {
+	text-align: center;
+}
+
+.process .details {
+	float: left;
+	padding: 20px;
+	max-width: 33%;
+}
+
+.process .details img {
+	margin: auto;
+    display: block;
+    width: 105px;
+}
+
+.process .top {
+	display: inline-block;
+	padding: 50px 150px 0 150px; 
+}
+
+.process .bottom {
+	display: inline-block;
+	padding: 10px 150px 0 150px; 
+}
+
+.process p {
+	padding: 20px 20px;
+	color: hsla(213, 37%, 32%, 0.62);
+	font-weight: 500;
+	text-align: center;
+}
+
+.process h3 {
+	font-size: 25px;
+	padding-top: 20px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.testimony h1 {
+	padding: 100px;
+	text-align: center;
+}
+
+.testimony .testimonials {
+	padding: 0 200px 26px 200px;
+}
+
+.testimony .testimo-details {
+	padding: 38px;
+	display: inline-block;
+}
+
+.testimony .border {
+	border: 2px solid #dadada;
+	border-radius: 18px;
+	position: relative;
+	width: 560px;
+	padding: 50px 40px 40px 80px;
+	-webkit-box-shadow: -1px 1px 10px 2px rgba(128,125,128,0.26);
+    -moz-box-shadow: -1px 1px 10px 2px rgba(128,125,128,0.26);
+    box-shadow: -1px 1px 10px 2px rgba(128,125,128,0.26);
+
+}
+
+.testimony .border p {
+	padding: 20px;
+	font-weight: 500;
+	font-size: 18px;
+	color: hsla(213, 37%, 32%, 0.62);
+}
+
+.testimony .border h2 {
+	color: #c70b0b;
+    font-weight: 900;
+    padding: 10px 20px 0 20px;
+}
+
+.testimony .border span {
+	font-size: 14px;
+	font-weight: 700;
+	padding: 20px;
+}
+
+.testimony .testImg {
+	position: absolute;
+    left: -27px;
+    top: 40px;
+}
+
+.con-det .contact {
+	width: 50%;
+	background-color: rgba(39, 68, 88, 0.97);
+	display: inline-block;
+	padding: 194px 90px 0px 100px;
+}
+
+.con-det .contact input {
+	width: 100%;
+    border: hidden;
+    border-bottom: 1px solid #FFF;
+    background: rgba(39, 68, 88, 0.97);
+    padding: 30px 0;
+}
+
+.con-det p {
+	color: #FFF;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+
+.con-det .contact input:last-child {
+	padding-bottom: 100px;
+}
+
+::-webkit-input-placeholder {
+  color: #FFF;
+  font-size: 16px;
+}
+
+.con-det .contact a {
+	font-size: 16px;
+	text-align: center;
+	border: 1px solid #c70b0b;
+	border-radius: 75px;
+	background-color: #c70b0b;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+    width: 210px;
+    padding: 16px 34px;
+}
+
+.con-det .contact .cont {
+	padding: 155px 100px 50px 246px;
+}
+
+.con-det .marker {
+	display: inline-block;
+	width: 50%;
+}
+
+.con-det {
+	font-size: 0;
+}
+
+.cont-det .contact, .marker {
+	font-size: 16px;
+}
+
+.infowindow {
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
